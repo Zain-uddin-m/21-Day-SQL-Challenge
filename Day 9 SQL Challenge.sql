@@ -1,4 +1,4 @@
--- Day 9of 21-DAY SQL Challenge:
+-- Day 9 of 21-DAY SQL Challenge:
 
 -- Day 9 SQL challenge question:
 --  Calculate the average length of stay (in days) for each service,
@@ -7,7 +7,8 @@
 SELECT
 	service,
     ROUND(
-		AVG(datediff(departure_date, arrival_date)), 2) AS avg_stay,
+		AVG(datediff(departure_date, arrival_date)),
+			2) AS avg_stay,
 	COUNT(patient_id) AS total_patients
 FROM patients
 GROUP BY service
