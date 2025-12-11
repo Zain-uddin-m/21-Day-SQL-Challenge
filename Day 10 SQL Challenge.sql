@@ -1,6 +1,6 @@
--- Day 9 of 21-DAY SQL Challenge:
+-- Day 10 of 21-DAY SQL Challenge:
 
--- Day 9 SQL challenge question:
+-- Day  10 SQL challenge question:
 -- Create a service performance report showing service name, total patients admitted, and a performance category based on the
 -- following: 'Excellent' if avg satisfaction >= 85, 'Good' if >= 75, 'Fair' if >= 65, otherwise 'Needs Improvement'.
 -- Order by average satisfaction descending.

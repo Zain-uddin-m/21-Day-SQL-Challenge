@@ -12,8 +12,10 @@ SELECT
         ELSE 'No event'
 	END AS event_status,
     COUNT(week) AS week_count,
-    ROUND(AVG(patient_satisfaction), 2) AS avg_satisfacion,
-    ROUND(AVG(staff_morale), 2) AS avg_staff_morale
+    ROUND (
+		AVG(patient_satisfaction), 2) AS avg_satisfacion,
+    ROUND (
+		AVG(staff_morale), 2) AS avg_staff_morale
 FROM services_weekly
 GROUP BY event_status
 ORDER BY AVG(patient_satisfaction) DESC;

@@ -1,6 +1,6 @@
--- Day 8 of 21-DAY SQL Challenge:
+-- Day 11 of 21-DAY SQL Challenge:
 
--- Day 8 SQL challenge question:
+-- Day 11 SQL challenge question:
 -- Find all unique combinations of service and event type from the services_weekly table
 -- where events are not null or none, along with the count of occurrences for each combination. Order by count descending.
 SELECT DISTINCT
