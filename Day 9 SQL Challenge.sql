@@ -1,7 +1,7 @@
--- Day 9of 21-DAY SQL Challenge:
+-- Day 9 of 21-DAY SQL Challenge:
 
 -- Day 9 SQL challenge question:
---  Calculate the average length of stay (in days) for each service,
+-- Calculate the average length of stay (in days) for each service,
 -- showing only services where the average stay is more than 7 days.
 -- Also show the count of patients and order by average stay descending.
 SELECT
