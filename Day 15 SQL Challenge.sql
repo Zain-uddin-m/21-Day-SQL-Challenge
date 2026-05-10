@@ -22,3 +22,11 @@ FROM services_weekly sw
 WHERE sw.week = 20
 GROUP BY sw.service
 ORDER BY total_pat_admitted DESC;
+
+
+-- Practice Questions:
+-- 1. 1. Find patients who are in services with above-average staff count.
+
+-- 2. List staff who work in services that had any week with patient satisfaction below 70.
+
+-- 3. Show patients from services where total admitted patients exceed 1000.
