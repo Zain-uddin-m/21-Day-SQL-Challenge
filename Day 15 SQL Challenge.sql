@@ -1,7 +1,7 @@
- -- Day 15 of 21-SQL Challenge
+ -- Day 15 of 21-Day SQL Challenge
 -- Topics: Multiple Joins- Joining more than two tables, complex relationships
 
--- Day 15 SQL question:
+-- Day 15 SQL Challenge question:
 -- Create a comprehensive service analysis report for week 20 showing: service name,
 -- total patients admitted that week, total patients refused, average patient satisfaction,
 -- count of staff assigned to service, and count of staff present that week. Order by patients admitted descending.
