@@ -1,7 +1,7 @@
--- Day 16 of 21-Day SQL Challenge:
+-- Day 17 of 21-Day SQL Challenge:
 -- Topics: Subqueries in SELECT, derived tables, inline views
 
--- Day 16 SQL Challenge question:
+-- Day 17 SQL Challenge question:
 -- Create a report showing each service with: service name, total patients admitted,
 -- the difference between their total admissions and the average admissions across all services,
 -- and a rank indicator ('Above Average', 'Average', 'Below Average'). Order by total patients admitted descending.
